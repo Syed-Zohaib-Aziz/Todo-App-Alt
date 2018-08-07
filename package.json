@@ -1,0 +1,22 @@
+{
+  "name": "practice-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "alt": "^0.18.6",
+    "alt-container": "^1.1.1",
+    "ant": "^0.2.0",
+    "antd": "^3.8.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js --ext .jsx --no-cache --quiet",
+    "lintfix": "eslint src --ext .js --ext .jsx --no-cache --fix"
+  }
+}
